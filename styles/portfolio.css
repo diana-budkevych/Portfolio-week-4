@@ -42,7 +42,20 @@ h2 {
   padding: 12px 24px;
   border-color: #db417c;
 }
-
+.about-section {
+  padding: 24px 12px;
+}
+about-content {
+  margin: 30px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
 .btn-branding-outline {
   padding: 12px 24px;
   border-radius: 4;
@@ -62,5 +75,8 @@ h2 {
   }
   body {
     text-align: center;
+  }
+  .img-fluid {
+    margin: 10px;
   }
 }
