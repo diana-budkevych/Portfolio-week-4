@@ -45,8 +45,13 @@ h2 {
 .about-section {
   padding: 24px 12px;
 }
-about-content {
+.about-content {
   margin: 30px;
+}
+.about-content h3 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  margin: 7px 0 0;
 }
 .about-section h1 {
   font-size: 64px;
