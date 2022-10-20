@@ -54,6 +54,7 @@ h2 {
   margin: 7px 0 0;
   text-align: center;
 }
+
 .about-section h1 {
   font-size: 64px;
   line-height: 80px;
@@ -71,6 +72,33 @@ h2 {
   border: 1px solid #db417c;
   color: white;
 }
+.logo {
+  max-width: 150px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+nav a.active {
+  color: #db417c;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+nav a:hover {
+  color: #db417c;
+}
 @media (max-width: 900px) {
   h1,
   h2 {
@@ -84,5 +112,12 @@ h2 {
   }
   .img-fluid {
     margin: 10px;
+  }
+  nav .container {
+    justify-content: center;
+    margin-right: 0;
+  }
+  .content-of-nav {
+    width: 100%;
   }
 }
